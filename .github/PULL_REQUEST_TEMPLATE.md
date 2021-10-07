@@ -1,21 +1,46 @@
+# Feature
+
+Link goes here
+
+
 # Description
+  details
 
-Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
 
-Fixes # (issue)
+# Task list
 
-# How Has This Been Tested?
+- [ ] Add mail changes
+- [ ] Add helper function
 
-Please describe the tests that you ran to verify your changes. Please also note any relevant details for your test configuration.
 
+
+
+# Migrations
+```
+   create table test(id bigint, name varchar(255));
+```
+
+
+# API Details, If Any?
+
+```
+Details here
+```
+ 
+
+
+# How to Test?
 - [ ] Test A
 - [ ] Test B
 
+
 # Checklist:
 
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] Any dependent changes have been merged and published in downstream modules
+- [ ] My code follows the style guidelines of this project.
+- [ ] I have performed a self-review of my own code.
+- [ ] I have made corresponding changes to the documentation.
+- [ ] I have followed above testing to prove feature is working.
+- [ ] My code require database migrations.
+- [ ] Did we refactored anything here?
+
+
